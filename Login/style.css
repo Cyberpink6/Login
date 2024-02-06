@@ -12,7 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('fondo.png') no-repeat cover;
+    background: url('fondo.png') no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -21,7 +22,7 @@ header {
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: red;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
